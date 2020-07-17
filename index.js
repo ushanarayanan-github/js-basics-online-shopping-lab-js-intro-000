@@ -36,7 +36,7 @@ function viewCart() {
       }
     }
    return `${returnString}.`
-  }  
+  }
 }
 
 function total() {
