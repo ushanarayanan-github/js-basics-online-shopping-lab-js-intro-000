@@ -35,8 +35,8 @@ function viewCart() {
         returnString = `${returnString},`
       }
     }
-  }
-  return `${returnString}.`
+   return `${returnString}.`
+  }  
 }
 
 function total() {
