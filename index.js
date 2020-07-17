@@ -65,5 +65,5 @@ function placeOrder(cardNumber) {
     var sum = total()
     cart.splice(0,cart.length)
     return `Your total cost is ${sum}, which will be charged to the card ${cardNumber}.`
-  }  
+  }
 }
