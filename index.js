@@ -32,8 +32,8 @@ function viewCart() {
         returnString = `${returnString}, and`
       }
       else {
-        returnString = `${returnString},`    
-      } 
+        returnString = `${returnString},`
+      }
     }
   }
   return `${returnString}.`
