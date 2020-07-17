@@ -30,7 +30,7 @@ function viewCart() {
       }
       else {
         returnStrinf=`${returnString} ,`
-      }         
+      }
     }
   }
   return returnString
