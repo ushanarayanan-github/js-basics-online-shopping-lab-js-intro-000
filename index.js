@@ -26,10 +26,10 @@ function viewCart() {
     for (let i = 0; i<cart.length;i++){
       returnString = `${returnString} you have ${cart[i].itemName} at $${cart[i].itemPrice}`
       if (i==cart.length-1){
-        returnString=`${returnString} , and`
+        returnString=`${returnString}, and`
       }
       else {
-        returnStrinf=`${returnString} ,`
+        returnStrinf=`${returnString},`
       }
     }
   }
